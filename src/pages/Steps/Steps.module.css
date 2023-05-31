@@ -1,0 +1,18 @@
+.circle-step{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    background-color: aquamarine;
+}
+
+@media screen and (max-width : 768px) {
+    .step-caption{
+        display: none;
+    }
+}
